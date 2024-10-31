@@ -10,7 +10,50 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  align-self: center;
+  margin-bottom:32px;
 }
+
+.info {
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+}
+
+.items {
+  display:flex;
+  justify-content:center;
+  gap:52px;
+}
+
+.barberry {
+  display:flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.chili {
+  display:flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.pepper {
+  display:flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.saffron {
+  display:flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.text {
+  width:200px;
+  text-align: center; 
+}
+
 
 /* do not edit this footer */
 .footer {
